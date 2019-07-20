@@ -14,10 +14,10 @@ galaxy_info:
   - name: Ubuntu
     versions:
     - disco
-      bionic
+    - bionic
 
   galaxy_tags:
     - wireguard
-      vpn
+    - vpn
 
 dependencies: []
