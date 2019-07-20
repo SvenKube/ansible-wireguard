@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: wireguard
   author: Sven Kube
   description: Install and configure wireguard on your system.
   company: none
