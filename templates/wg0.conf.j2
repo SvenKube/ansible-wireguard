@@ -1,0 +1,13 @@
+[Interface]
+Address = {{address}}
+PrivateKey = {{private_key}}
+ListenPort = {{listen_port}}
+
+{% for peer in peers %}
+[Peer]
+PublicKey = {{peer.public_key}}
+Endpoint = {{peer.endpoint}}
+AllowedIPs = {{peer.allowed_ips}}
+
+{% endfor %}
+PersistentKeepalive = 25
